@@ -1,56 +1,59 @@
-# Traffic Accidents & Weather Analysis - DSA210 Project
+# Traffic Accidents & Crime Rate Analysis - DSA210 Project
+
 ## Project Overview
-Over the next few weeks, I will analyze traffic accident data from February 2016 to Dec 2021 which covers 49 states of the USA and compare it with historical weather data. The goal is to test the hypothesis that accident rates increase on rainy and snowy days.
 
-Additionally, I will investigate whether accidents are more frequent during nighttime hours. By applying statistical analysis and data visualization techniques, I aim to uncover patterns that provide valuable insights into road safety.
+This project aims to analyze traffic accident data from 2023 across 49 states in the USA and compare it with crime rate data from different states. The goal is to test the hypothesis that states with higher crime rates also experience a higher number of traffic accidents.
 
-# Objectives
-- Understand the Impact of Weather
+Additionally, I will investigate whether there are correlations between specific types of crimes and accident frequency. By applying statistical analysis and data visualization techniques, I aim to uncover patterns that provide valuable insights into road safety and urban crime dynamics.
 
-* Examine how rain and snow influence accident rates.
-Analyze Time-Based Accident Trends
+## Objectives
 
-+ Determine whether accidents occur more frequently at night.
-Data-Driven Insights
+### 1. Understand the Impact of Crime Rates on Traffic Accidents  
+- Examine whether states with higher crime rates have a greater number of traffic accidents.
+- Identify specific types of crimes that may have a stronger correlation with accident rates.
 
+### 2. Analyze Time-Based and Location-Based Trends  
+- Determine if accidents are more frequent in high-crime areas.
+- Investigate whether there are patterns based on the time of day or year.
+
+### 3. Data-Driven Insights  
 - Use statistical methods to validate the hypothesis and identify key factors contributing to accident trends.
-Apply Data Science Skills
+- Identify potential external factors that could influence both crime rates and accidents.
 
-* Utilize techniques from the DSA210 course to perform real-world data analysis and visualization.
-  
-# Motivation
+### 4. Apply Data Science Skills  
+- Utilize techniques from the DSA210 course to perform real-world data analysis and visualization.
 
-1. Road Safety Awareness
-Understanding how weather conditions and time of day impact accident rates can contribute to safer driving practices.
+## Motivation
 
-2. Scientific Approach
-By leveraging data science, I aim to make conclusions based on evidence rather than assumptions.
+### Road & Public Safety Awareness  
+Understanding how crime rates impact accident frequencies can contribute to better urban planning, policy-making, and improved road safety measures.
 
-3. Practical Learning
-This project serves as an opportunity to put the theoretical concepts learned in class into practice and  apply data analysis and hypothesis testing techniques to a meaningful real-world scenario.
+### Scientific Approach  
+By leveraging data science, I aim to make conclusions based on evidence rather than assumptions, ensuring a data-driven perspective on urban safety concerns.
 
-# Dataset
+### Practical Learning  
+This project serves as an opportunity to put the theoretical concepts learned in class into practice and apply data analysis, hypothesis testing, and correlation analysis techniques to a meaningful real-world scenario.
 
-The dataset consists of U.S. traffic accident records from 2016 to 2021, combined with historical weather data for the same time period.
+## Dataset
 
-- **Accident Data Includes:**
+The dataset consists of U.S. traffic accident records from 2023, combined with state-level crime rate data for the same period.
 
-Date & Time – When the accident occurred.
-Location – The city and state of the accident.
-Severity – The level of impact of the accident.
-Time of Day – Whether the accident happened during the day or night.
+### **Accident Data Includes:**
+- **Date & Time** – When the accident occurred.
+- **Location** – The city and state of the accident.
+- **Severity** – The level of impact of the accident.
+- **Time of Day** – Whether the accident happened during the day or night.
 
-https://www.kaggle.com/datasets/sasikumarg/us-accidents?resource=download
+[Accident Data Source](https://www.kaggle.com/datasets/sasikumarg/us-accidents?resource=download)
 
-* **Weather Data Includes:**
+### **Crime Rate Data Includes:**
+- **State-level crime rates**
+- **Types of crimes recorded (violent crimes, property crimes, etc.)**
+- **Annual crime trends from 2023**
 
-Temperature (temp)
-Rainfall (rain)
-Snowfall (snow)
-Wind speed (wind_speed)
-Humidity (humidity)
-Weather condition code (clear, rain, fog, etc.) 
+Crime numbers (excel files) for every state in 2023, obtained from the FBI
 
-by NOAA API.
+
+
 
 
